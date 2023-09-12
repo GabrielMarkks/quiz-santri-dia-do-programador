@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <script src="/assets/js/scripts.js" async></script>
+  <title>Quiz de Programação</title>
+</head>
+<body class="login-back">
+  <div class="container">
+    <!-- Tela de login -->
+    <div class="login-container">
+      <h1>Login</h1>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" placeholder="Seu nome">
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" placeholder="Seu e-mail">
+      <label for="birthdate">Data de Nascimento:</label>
+      <input type="date" id="birthdate">
+      <button class="start-quiz button">Começar Quiz</button>
+    </div>
+
+    <!-- Perguntas do Quiz -->
+    <div class="questions-container hide">
+      <span class="question">Pergunta aqui?</span>
+      <div class="answers-container">
+        <!-- Botões de resposta serão gerados dinamicamente com JavaScript -->
+      </div>
+      <button class="next-question button">Próxima pergunta</button>
+      <button class="finish-quiz button hide">Finalizar</button>
+    </div>
+
+    <!-- Mensagens finais -->
+    <div class="final-messages hide">
+      <!-- As mensagens finais serão exibidas dinamicamente com JavaScript -->
+    </div>
+  </div>
+</body>
+</html>

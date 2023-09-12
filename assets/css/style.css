@@ -1,0 +1,210 @@
+/* Estilos gerais */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('/assets/image/1920x1080-login.png');
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+}
+
+
+.hide {
+  display: none;
+}
+
+.container {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para telas grandes (desktop) */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+
+  /* background desck login */
+  body.login-back{
+    background-image: url('/assets/image/1920x1080-login.png') !important;
+  }
+
+}
+
+/* Estilos para telas pequenas (mobile) */
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 90%;
+  }
+  /* background mobile login */
+  body.login-back{
+    background-image: url('/assets/image/640x768-login.png') !important;
+  }
+
+}
+
+/* Estilos para o formulário de login */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-container label {
+  font-weight: bold;
+  text-align: left;
+}
+
+.login-container input[type="text"],
+.login-container input[type="email"],
+.login-container input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+/* Estilos para os botões */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* .correct {
+  background-color: #049b48 !important;
+} */
+
+.correct {
+  background-image: url('/assets/image/1920x1080-verde.png') !important;
+}
+
+/* .incorrect {
+  background-color: #a10101 !important;
+} */
+
+.incorrect {
+  background-image: url('/assets/image/1920x1080-vermelho.png') !important;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.passou{
+   background-image: url('/assets/image/1920x1080-login.png') !important;
+}
+
+.reprovou{
+  background-image: url('/assets/image/1920x1080-vermelho.png') !important;
+}
+
+/* Consulta de mídia para Smartphones */
+@media screen and (max-width: 480px) {
+  /* Estilos para smartphones em orientação retrato */
+  .msg-final {
+    background-image: url('/assets/image/parabésmobile.png') !important;
+  }
+}
+
+/* Consulta de mídia para Tablets */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  /* Estilos para tablets em orientação retrato */
+  .msg-final {
+    background-image: url('/assets/image/1024x768-parabéns.png') !important;
+  }
+}
+
+/* Consulta de mídia para Laptops */
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  /* Estilos para laptops e monitores de tela menor */
+  .msg-final {
+    background-image: url('/assets/image/1280x768-parabéns.png') !important;
+  }
+}
+
+/* Consulta de mídia para Desktops Maiores */
+@media screen and (min-width: 1281px) {
+  /* Estilos para monitores de desktop maiores */
+  .msg-final {
+    background-image: url('/assets/image/1920x1080-parabéns.png') !important;
+  }
+}
+
+
+/* Estilos para perguntas e respostas */
+.questions-container {
+  text-align: left;
+}
+
+.question {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.answers-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.answer {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.answer:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para as mensagens finais */
+.final-messages {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.final-messages p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para botões nas mensagens finais */
+.final-messages button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.final-messages button:hover {
+  background-color: #0056b3;
+}
+
