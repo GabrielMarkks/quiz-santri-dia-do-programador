@@ -6,13 +6,14 @@
 }
 
 body {
-  background-image: url('/assets/image/1920x1080-login.png');
+  background-image: url('../image/1920x1080-login.png') !important;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+  background-size: cover;
   
 }
 
@@ -38,7 +39,7 @@ body {
 
   /* background desck login */
   body.login-back{
-    background-image: url('/assets/image/1920x1080-login.png') !important;
+    background-image: url('../image/1920x1080-login.png') !important;
   }
 
 }
@@ -50,7 +51,7 @@ body {
   }
   /* background mobile login */
   body.login-back{
-    background-image: url('/assets/image/640x768-login.png') !important;
+    background-image: url('../image/640x768-login.png') !important;
   }
 
 }
@@ -95,7 +96,7 @@ body {
 } */
 
 .correct {
-  background-image: url('/assets/image/1920x1080-verde.png') !important;
+  background-image: url('../image/1920x1080-verde.png') !important;
 }
 
 /* .incorrect {
@@ -103,7 +104,7 @@ body {
 } */
 
 .incorrect {
-  background-image: url('/assets/image/1920x1080-vermelho.png') !important;
+  background-image: url('../image/1920x1080-vermelho.png') !important;
 }
 
 .button:hover {
@@ -111,18 +112,18 @@ body {
 }
 
 .passou{
-   background-image: url('/assets/image/1920x1080-login.png') !important;
+   background-image: url('../image/1920x1080-login.png') !important;
 }
 
 .reprovou{
-  background-image: url('/assets/image/1920x1080-vermelho.png') !important;
+  background-image: url('../image/1920x1080-vermelho.png') !important;
 }
 
 /* Consulta de mídia para Smartphones */
 @media screen and (max-width: 480px) {
   /* Estilos para smartphones em orientação retrato */
   .msg-final {
-    background-image: url('/assets/image/parabésmobile.png') !important;
+    background-image: url('../image/parabésmobile.png') !important;
   }
 }
 
@@ -130,7 +131,7 @@ body {
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   /* Estilos para tablets em orientação retrato */
   .msg-final {
-    background-image: url('/assets/image/1024x768-parabéns.png') !important;
+    background-image: url('../image/1024x768-parabéns.png') !important;
   }
 }
 
@@ -138,7 +139,7 @@ body {
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
   /* Estilos para laptops e monitores de tela menor */
   .msg-final {
-    background-image: url('/assets/image/1280x768-parabéns.png') !important;
+    background-image: url('../image/1280x768-parabéns.png') !important;
   }
 }
 
@@ -146,7 +147,7 @@ body {
 @media screen and (min-width: 1281px) {
   /* Estilos para monitores de desktop maiores */
   .msg-final {
-    background-image: url('/assets/image/1920x1080-parabéns.png') !important;
+    background-image: url('../image/1920x1080-parabéns.png') !important;
   }
 }
 
