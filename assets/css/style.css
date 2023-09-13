@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url('/assets/image/Background.svg') !important;
+  background-image: url('../image/Background.svg') !important;
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
@@ -139,11 +139,11 @@ body {
 }
 
 .passou{
-   background-image: url('/assets/image/Background.svg') !important;
+   background-image: url('../image/Background.svg') !important;
 }
 
 .reprovou{
-  background-image: url('/assets/image/1920x1080-vermelho.png') !important;
+  background-image: url('../image/1920x1080-vermelho.png') !important;
 }
 
 
@@ -152,30 +152,30 @@ body {
   /* Estilos para smartphones em orientação retrato */
   
   body.login-back{
-    background-image: url('/assets/image/back480x768.png') !important;
+    background-image: url('../image/back480x768.png') !important;
     
   }
   .msg-final {
-    background-image: url('/assets/image/Mobilefim.png') !important;
+    background-image: url('../image/Mobilefim.png') !important;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
   }
 
   .correct {
-    background-image: url('/assets/image/SVGverdteste2.svg') !important;
+    background-image: url('../image/SVGverdteste2.svg') !important;
   }
 
   .passou{
-    background-image: url('/assets/image/back480x768.png') !important;
+    background-image: url('../image/back480x768.png') !important;
   }
 
   .incorrect {
-    background-image: url('/assets/image/backvermelho480x768.png') !important;
+    background-image: url('../image/backvermelho480x768.png') !important;
   }
   
   .reprovou{
-    background-image: url('/assets/image/backvermelho480x768.png') !important;
+    background-image: url('../image/backvermelho480x768.png') !important;
   }
 }
 
@@ -183,7 +183,7 @@ body {
 @media screen and (min-width: 481px) and (max-width: 1024px) {
   /* Estilos para tablets em orientação retrato */
   body.login-back{
-    background-image: url('/assets/image/Background.svg') !important;
+    background-image: url('../image/Background.svg') !important;
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -207,7 +207,7 @@ body {
     background-size: cover;
   }
   body.login-back{
-    background-image: url('/assets/image/Background.svg') !important;
+    background-image: url('../image/Background.svg') !important;
     
   }
 }
@@ -222,7 +222,7 @@ body {
     background-size: cover;
   }
   body.login-back{
-    background-image: url('/assets/image/Background.svg') !important;
+    background-image: url('../image/Background.svg') !important;
     
   }
 }
