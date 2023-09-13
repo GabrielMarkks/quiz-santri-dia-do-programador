@@ -174,6 +174,8 @@ function finishGame() {
 
   if (performance <= 70) {
     document.body.classList.add('reprovou')
+    document.body.classList.remove('incorrect')
+    document.body.classList.remove('correct')
     message = `
       <p style="font-size: 20px"><b>Você acertou ${totalCorrect} de ${totalQuestions} questões.</b></p>
       <p>Infelizmente, você não atingiu a pontuação mínima para a mensagem especial.</p>
@@ -183,6 +185,8 @@ function finishGame() {
     
   } else {
     document.body.classList.add('passou')
+    document.body.classList.remove('incorrect')
+    document.body.classList.remove('correct')
     message = `
     <p style="font-size: 30px"><b>Parabéns!</b></p>
     <p>Você acertou ${totalCorrect} de ${totalQuestions} questões.
@@ -203,6 +207,7 @@ function restartQuiz() {
 
 
 function showFinalMessage() {
+  document.body.classList.remove('passou')
   document.body.classList.add('msg-final')
   $finalMessages.style.display = 'none';
   $container.style.display = 'none';
